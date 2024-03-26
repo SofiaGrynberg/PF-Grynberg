@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ojuju:wght@200..800&display=swap');
+/*font-family: "Caveat", cursive; */
+
+/*NAVEGADOR*/
+.navbar {
+    background-color: #009e0f;
+}
+.navbar-brand   {
+    font-size: 40px;
+    color: #087a2e !important;
+    text-shadow: 0px 0px 5px #ffffff; 
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+}
+span    {
+    font-size: 20px;
+}  
+.nav-link{  
+    color: #ffffff !important;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+}
+.nav-link:hover   {
+    color: #087a2e !important;
+}
+.navbar-toggler {
+    border: none;
+}
+/*FIN NAVEGADOR*/
