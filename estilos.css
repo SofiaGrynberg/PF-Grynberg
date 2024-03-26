@@ -28,3 +28,22 @@ span    {
     border: none;
 }
 /*FIN NAVEGADOR*/
+main    {
+    background-color: #087a2e;
+}
+/*HOME*/
+.jumbotron   {
+    background-image: url(../img/Reciclaje.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    text-shadow: 0px 0px 10px #000000; 
+    text-align: center;
+}
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
+h1  {
+    font-family: "Caveat", cursive;
+}
