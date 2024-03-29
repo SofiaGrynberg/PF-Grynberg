@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ojuju:wght@200..800&display=swap');
 /*font-family: "Caveat", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap')
+/*font-family: "Caveat Brush", cursive;*/
 *   {
     margin: 0;
     padding: 0;
@@ -44,31 +46,35 @@ main    {
     height: 300px;
     text-shadow: 0px 0px 10px #000000; 
     text-align: center;
+    font-family: "Caveat", cursive;
 }
-h1, h2 {
+h1  {
+    font-size: 30px;
     color: #ffffff;
     text-shadow: 0px 0px 5px #000000ff;
     text-align: center;
 }
-h1  {
-    font-family: "Caveat", cursive;
-    font-size: 30px;
-}
 h2  {
     padding-top: 10px;
     font-size: x-large;
+    font-family: "Caveat Brush", cursive;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000000ff;
+    text-align: center;
 }
 .contenedor-gris    {
     text-align: center;
     font-size: 30px;
-    text-shadow: 0px 0px 5px #000000ff;
+    text-shadow: 0px 0px 3px #000000ff;
+    font-family: "Caveat Brush", cursive;
 }
 .contenedor-rojo    {
     background-color: #ff0000;
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
-    text-shadow: 0px 0px 5px #000000ff;
+    text-shadow: 0px 0px 3px #000000ff;
+    font-family: "Caveat Brush", cursive;
 }
 .contenedor-gris p, .contenedor-rojo p  {
     font-size: medium;
@@ -79,12 +85,15 @@ h2  {
     margin-top: 100px;
     font-size: medium;
     text-align: center;
-    color: #000000;
     font-weight: bold;
+    font-family: "Caveat Brush", cursive;
 }
 .fa-solid   {
     font-size: xx-large;
 } 
+.conciencia-ambiental, .huerta, .compost    {
+    padding-bottom: 30px;
+}
 /*FOOTER*/
 footer  {
     background-color: #087a2e;
@@ -150,6 +159,29 @@ h5  {
 .consultaProductos{
     margin-bottom: 0px;
 }
+/*GREEN POINTS*/
+.mediaGreenPoints{  
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.comoSeparar    {
+    padding-top: 30px;
+}
+/*CONTACTO*/
+.informacion-contacto   {
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-weight: bold;
+/*REGISTRARME*/
+.seccion-registro   {
+    font-weight: bold;
+}
+.inicia-sesion  {
+    text-decoration: none;
+    color:#ff0000;
+}
 /*inicio media queries*/
 @media only screen and (min-width: 576px)  {
     .jumbotron  {
@@ -157,10 +189,7 @@ h5  {
     }
     h1  {
         font-size: 40px;
-    } 
-    .contenedor-gris p, .contenedor-rojo p  {
-        font-size: large;
-    }                                
+    }           
     .galeria    {
         display: grid;
         grid-template-columns: 1fr 1fr;
