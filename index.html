@@ -51,32 +51,75 @@
             <button type="button" class="btn btn-secondary">Más info</button>
         </section>
         <!-- Fin Jumbotron -->
-        <!-- Cotainers inician -->
-        <div class="container-fluid bg-secondary text-white rounded contenedor-gris">
+        <article class="text-white contenedor-rojo">
             <p>Ayudamos a potenciar la conciencia ambiental a través de la recolección de residuos reciclables para la fabricación de huertas y composteras ecofriendly, transformando el planeta en un lugar más verde.</p>
+        </article>
+        <!-- Carrusel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="rounded-circle active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="rounded-circleactive"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4" class="rounded-circle active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5" class="rounded-circle active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6" class="rounded-circle active"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Botellas.jpg" alt="Botellas" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Carton.jpg" alt="Carton" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Metal.jpg" alt="Metal" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Nena.jpg" alt="Nena" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Papel.jpg" alt="Papel" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Playa.jpg" alt="Playa" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Tapitas.jpg" alt="Tapitas" class="d-block w-100">
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-        <div class="container-fluid text-white rounded contenedor-rojo">
+        <!--Fin Carrusel-->
+        <article class="container-fluid text-white contenedor-rojo">
             <p>Desarrollamos una herramienta revolucionaria para la sencilla ubicación de puntos de reciclaje en todo el país. Contribuyendo con el planeta, los usuarios obtendrán beneficios exclusivos en la compra de nuestros productos.</p>
-        </div>
-        <!--Containers fin-->
+        </article>
         <!--Servicios inicia-->
-        <section class="row">
+        <section class="row servicios">
             <div class="col-sm-12 col-md-4 conciencia-ambiental">
                 <i class="fa-solid fa-earth-americas"></i>
                 <h3>Conciencia Ambiental</h3>
-                <p class="parrafoServicios">Fomentamos la conciencia ambiental a través de la separación de residuos reciclables y la difusión de puntos de recolección.</p>
+                <p>Fomentamos la conciencia ambiental a través de la separación de residuos reciclables y la difusión de puntos de recolección.</p>
                 <button type="button" class="btn btn-dark">Ver más</button>
             </div>
             <div class="col-sm-12 col-md-4 huerta">
                 <i class="fa-sharp fa-solid fa-seedling"></i>
                 <h3>Huerta</h3>
-                <p class="parrafoServicios">Apoyamos la alimentación saludable y la producción del propio alimento, a partir de la manufactura de huertas ecofriendly.</p>
+                <p>Apoyamos la alimentación saludable y la producción del propio alimento, a partir de la manufactura de huertas ecofriendly.</p>
                 <button type="button" class="btn btn-dark">Ver más</button>
             </div>
             <div class="col-sm-12 col-md-4 compost">
                 <i class="fa-solid fa-trash"></i>
                 <h3>Compost</h3>
-                <p class="parrafoServicios">Fabricamos composteras a base de residuos reciclables, transformando los desechos orgánicos en abono para la huerta.</p>
+                <p>Fabricamos composteras a base de residuos reciclables, transformando los desechos orgánicos en abono para la huerta.</p>
                 <button type="button" class="btn btn-dark">Ver más</button>
             </div>
         </section>

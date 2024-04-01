@@ -41,7 +41,7 @@ main    {
 /*HOME*/
 .jumbotron   {
     background-image: url(../img/Reciclaje.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     height: 300px;
     text-shadow: 0px 0px 10px #000000; 
@@ -62,25 +62,16 @@ h2  {
     text-shadow: 0px 0px 5px #000000ff;
     text-align: center;
 }
-.contenedor-gris    {
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 0px 0px 3px #000000ff;
-    font-family: "Caveat Brush", cursive;
-}
 .contenedor-rojo    {
     background-color: #ff0000;
-    margin-top: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: x-large;
     text-shadow: 0px 0px 3px #000000ff;
     font-family: "Caveat Brush", cursive;
-}
-.contenedor-gris p, .contenedor-rojo p  {
-    font-size: medium;
+    padding: 30px;
 }
 /*Servicios*/
-.row    {
+.servicios    {
     padding: 20px;
     margin-top: 100px;
     font-size: medium;
@@ -170,17 +161,42 @@ h5  {
     padding-top: 30px;
 }
 /*CONTACTO*/
+.contacto   {
+    padding: 50px;
+    margin-top: 20px;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Caveat Brush", cursive;
+}
 .informacion-contacto   {
     padding-top: 10px;
     padding-bottom:10px;
     font-weight: bold;
+}
+.seccion-contacto   {
+    padding-bottom: 50px;
+}
 /*REGISTRARME*/
-.seccion-registro   {
+.formulario-registro    {
+    margin-top: 50px;
+    text-align: center;
     font-weight: bold;
+    font-family: "Caveat Brush", cursive;
+    display: flex;
+    justify-content: center;
+}
+.ingreso    {
+    text-align: center;
 }
 .inicia-sesion  {
-    text-decoration: none;
-    color:#ff0000;
+    color: #ff0000;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    font-size: x-large;
+}
+.inicia-sesion:hover    {
+    color:#ffffff;
 }
 /*inicio media queries*/
 @media only screen and (min-width: 576px)  {
@@ -202,9 +218,6 @@ h5  {
     }
     h1  {
         font-size: 50px;
-    }
-    .contenedor-gris p, .contenedor-rojo p  {
-        font-size: larger;
     }
     .galeria    {
         grid-template-columns: repeat(3, 1fr);
