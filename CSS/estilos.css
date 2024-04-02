@@ -55,7 +55,7 @@ h1  {
     text-align: center;
 }
 h2  {
-    padding-top: 10px;
+    padding: 10px;
     font-size: x-large;
     font-family: "Caveat Brush", cursive;
     color: #ffffff;
@@ -151,15 +151,6 @@ h5  {
     margin-bottom: 0px;
 }
 /*GREEN POINTS*/
-.mediaGreenPoints{  
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.comoSeparar    {
-    padding-top: 30px;
-}
 /*CONTACTO*/
 .contacto   {
     padding: 50px;
