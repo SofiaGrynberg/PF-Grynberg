@@ -132,6 +132,7 @@ h5  {
     transition: all 0.9s;
 }
 .imagen:hover {
+    cursor: pointer;
     filter:sepia(100%);
     transform: scale(1.1);
 }
@@ -165,6 +166,10 @@ h5  {
     font-weight: bold;
 }
 .seccion-contacto   {
+    padding-bottom: 50px;
+}
+/*GREEN POINTS*/
+.media-green-points {
     padding-bottom: 50px;
 }
 /*REGISTRARME*/
