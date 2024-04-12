@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+$font-caveat: "Caveat", cursive;
+$font-brush: "Caveat Brush", cursive;
+$color-main: #087a2e;
+$color-container: #ff0000;
+$color-white: #ffffff;
+$color-dark: #000000;
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO NAVEGADOR*/
+.navbar {
+    background-color: $color-main;
+
+    .container-fluid    {
+        .navbar-brand   {
+            font-size: 40px;
+            color: $color-main !important;
+            text-shadow: 0px 0px 5px $color-white; 
+            font-family: $font-caveat;
+            font-weight: bold;
+
+            span    {
+                font-size: 20px;
+            }
+        }
+        .navbar-toggler {
+            border: none;
+        }
+        .navbar-collapse    {
+            .navbar-nav {
+                .nav-item   {
+                    .nav-link   {
+                        color: $color-white !important;
+                        text-shadow: 0px 0px 5px $color-dark;
+                        font-weight: bold;
+                        font-family: $font-caveat;
+                        font-size: 20px;
+                    }
+                    .nav-link:hover   {
+                        color: $color-container !important;
+                    }
+                }
+            }
+        }
+    }
+}  
+/*FIN NAVEGADOR*/
+
+main    {
+    background-color: $color-main;
+    
+    a   {
+        .fa-comment   {
+            position: fixed;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            font-size: 40px;
+            bottom: 30px;
+            right: 30px;
+            background: $color-white;
+            color: $color-container;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 0px 1px 10px $color-white;
+            z-index: 100px;
+        }
+        .fa-comment:hover   {
+            text-decoration: none;
+            background: $color-container;
+            color: $color-white;
+        }
+    }
+
+    /*INICIA HOME*/
+    .jumbotron   {
+        background-image: url(../img/Reciclaje.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        text-shadow: 0px 0px 10px $color-dark; 
+        text-align: center;
+        font-family: $font-caveat;
+
+        h1  {
+            font-size: 30px;
+            color: $color-white;
+            text-shadow: 0px 0px 5px $color-dark;
+            text-align: center;
+        }
+    }
+    .contenedor-rojo    {
+        background-color: $color-container;
+        text-align: center;
+        font-size: x-large;
+        text-shadow: 0px 0px 3px $color-dark;
+        font-family: $font-brush;
+        padding: 30px;
+    }
+    .servicios    {
+        padding: 30px;
+        margin-top: 100px;
+        font-size: medium;
+        text-align: center;
+        font-weight: bold;
+        font-family: $font-brush;
+
+        .conciencia-ambiental, .huerta, .compost    {
+            padding-bottom: 30px;
+
+            .fa-solid   {
+                font-size: xx-large;
+            } 
+        }
+    }
+}
+/*FIN HOME*/
+
+/*INICIA FOOTER*/
+footer  {
+    background-color: $color-main;
+    font-family: $font-caveat;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    h5  {
+        color: $color-white;
+        text-shadow: 0px 0px 5px $color-dark;
+        font-size: medium;
+    }
+    .redes  { 
+        a {  
+            color: $color-container;
+            text-decoration: none;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+        a:hover  {
+            color: $color-white;
+        }
+    }
+}
+/*FIN FOOTER*/
+
+/*INICIA PRODUCTOS*/
+h2  {
+    padding: 10px;
+    font-size: x-large;
+    font-family: $font-brush;
+    color: $color-white;
+    text-shadow: 0px 0px 5px $color-dark;
+    text-align: center;
+}
+.galeria    {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 200px);
+    background-color: $color-main;
+    padding: 50px;
+    grid-gap: 15px;
+
+    .imagen  {    
+        border: 3px solid $color-dark;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        transition: all 0.9s;
+
+        .nombre-producto  {
+            text-align: right;
+            padding-right: 10px;
+            font-family: $font-caveat;
+            font-weight: bold;
+            color: $color-dark;
+            text-shadow: 0px 0px 5px $color-white;
+        }        
+    }
+
+    .imagen:hover {
+        cursor: pointer;
+        filter:sepia(100%);
+        transform: scale(1.1);
+    }
+
+    .imagen1    {
+        background-image: url(../img/Maceta.jpg);
+    }
+    .imagen2 {
+        background-image: url(../img/Compostera.jpg);
+    }
+    .imagen3        {
+        background-image: url(../img/Huerta.jpg);
+    }
+    .imagen4    {
+        background-image: url(../img/HuertaVertical.jpg);
+    }
+}
+.consulta-productos{
+    margin-bottom: 0px;
+}
+/*FIN PRODUCTOS*/
+
+/*INICIA GREEN POINTS*/
+main    {  
+    .media-green-points {
+            padding: 30px;
+    }
+}
+/*FIN GREEN POINTS*/
+
+/*INICIA CONTACTO*/
+.contacto   {
+    padding: 50px;
+    margin-top: 20px;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-family: $font-brush;
+
+    .seccion-contacto   {
+        padding-bottom: 50px;
+
+        .informacion-contacto   {
+            padding-top: 10px;
+            padding-bottom:10px;
+            font-weight: bold;
+        }
+    }
+}
+/*FIN CONTACTO*/
+
+/*INICIA REGISTRARME*/
+main    {
+    .formulario-registro    {
+        text-align: center;
+        font-weight: bold;
+        font-family: $font-brush;
+        margin: auto;
+        margin-top: 50px;
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px $color-dark;
+    }
+
+    .ingreso    {
+        text-align: center;
+
+        .inicia-sesion  {
+            color: $color-container;
+            font-weight: bold;
+            font-family: $font-caveat;
+            font-size: x-large;
+        }
+        .inicia-sesion:hover    {
+            color: $color-white;
+        }
+    }
+}
+/*FIN REGISTRARME*/
+
+/*inicio media queries*/
+@media only screen and (min-width: 600px)  {
+    main    {
+        .jumbotron  {
+            height: 500px;
+
+            h1  {
+                font-size: 40px;
+            }  
+        }
+        .galeria    {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(2, 200px);
+        }
+    }
+}
+@media only screen and (min-width: 1024px)  {   
+    main    {
+        .jumbotron  {
+            height: 800px;
+
+            h1  {
+                font-size: 50px;
+            }
+        }
+        .galeria    {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 200px);
+
+            .imagen1    {
+                grid-column: 1/2;
+                grid-row: 1/4;
+            }
+            .imagen2    {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            .imagen3 {  
+                grid-column: 3/4;
+                grid-row: 1/4;
+            }
+            .imagen4{   
+                grid-column: 2/3;
+                grid-row: 2/4;
+            }
+        }
+    }
+}
+

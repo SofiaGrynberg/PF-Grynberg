@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ojuju:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*INICIO NAVEGADOR*/
+.navbar {
+  background-color: #087a2e;
+}
+.navbar .container-fluid .navbar-brand {
+  font-size: 40px;
+  color: #087a2e !important;
+  text-shadow: 0px 0px 5px #ffffff;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+.navbar .container-fluid .navbar-brand span {
+  font-size: 20px;
+}
+.navbar .container-fluid .navbar-toggler {
+  border: none;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #ffffff !important;
+  text-shadow: 0px 0px 5px #000000;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ff0000 !important;
+}
+
+/*FIN NAVEGADOR*/
+main {
+  background-color: #087a2e;
+  /*INICIA HOME*/
+}
+main a .fa-comment {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 40px;
+  bottom: 30px;
+  right: 30px;
+  background: #ffffff;
+  color: #ff0000;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 1px 10px #ffffff;
+  z-index: 100px;
+}
+main a .fa-comment:hover {
+  text-decoration: none;
+  background: #ff0000;
+  color: #ffffff;
+}
+main .jumbotron {
+  background-image: url(../img/Reciclaje.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  text-shadow: 0px 0px 10px #000000;
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+main .jumbotron h1 {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #000000;
+  text-align: center;
+}
+main .contenedor-rojo {
+  background-color: #ff0000;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 0px 0px 3px #000000;
+  font-family: "Caveat Brush", cursive;
+  padding: 30px;
+}
+main .servicios {
+  padding: 30px;
+  margin-top: 100px;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Caveat Brush", cursive;
+}
+main .servicios .conciencia-ambiental, main .servicios .huerta, main .servicios .compost {
+  padding-bottom: 30px;
+}
+main .servicios .conciencia-ambiental .fa-solid, main .servicios .huerta .fa-solid, main .servicios .compost .fa-solid {
+  font-size: xx-large;
+}
+
+/*FIN HOME*/
+/*INICIA FOOTER*/
+footer {
+  background-color: #087a2e;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+footer h5 {
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #000000;
+  font-size: medium;
+}
+footer .redes a {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+footer .redes a:hover {
+  color: #ffffff;
+}
+
+/*FIN FOOTER*/
+/*INICIA PRODUCTOS*/
+h2 {
+  padding: 10px;
+  font-size: x-large;
+  font-family: "Caveat Brush", cursive;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #000000;
+  text-align: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 200px);
+  background-color: #087a2e;
+  padding: 50px;
+  grid-gap: 15px;
+}
+.galeria .imagen {
+  border: 3px solid #000000;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  transition: all 0.9s;
+}
+.galeria .imagen .nombre-producto {
+  text-align: right;
+  padding-right: 10px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 0px 0px 5px #ffffff;
+}
+.galeria .imagen:hover {
+  cursor: pointer;
+  filter: sepia(100%);
+  transform: scale(1.1);
+}
+.galeria .imagen1 {
+  background-image: url(../img/Maceta.jpg);
+}
+.galeria .imagen2 {
+  background-image: url(../img/Compostera.jpg);
+}
+.galeria .imagen3 {
+  background-image: url(../img/Huerta.jpg);
+}
+.galeria .imagen4 {
+  background-image: url(../img/HuertaVertical.jpg);
+}
+
+.consulta-productos {
+  margin-bottom: 0px;
+}
+
+/*FIN PRODUCTOS*/
+/*INICIA GREEN POINTS*/
+main .media-green-points {
+  padding: 30px;
+}
+
+/*FIN GREEN POINTS*/
+/*INICIA CONTACTO*/
+.contacto {
+  padding: 50px;
+  margin-top: 20px;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Caveat Brush", cursive;
+}
+.contacto .seccion-contacto {
+  padding-bottom: 50px;
+}
+.contacto .seccion-contacto .informacion-contacto {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/*FIN CONTACTO*/
+/*INICIA REGISTRARME*/
+main .formulario-registro {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Caveat Brush", cursive;
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #000000;
+}
+main .ingreso {
+  text-align: center;
+}
+main .ingreso .inicia-sesion {
+  color: #ff0000;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: x-large;
+}
+main .ingreso .inicia-sesion:hover {
+  color: #ffffff;
+}
+
+/*FIN REGISTRARME*/
+/*inicio media queries*/
+@media only screen and (min-width: 600px) {
+  main .jumbotron {
+    height: 500px;
+  }
+  main .jumbotron h1 {
+    font-size: 40px;
+  }
+  main .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main .jumbotron {
+    height: 800px;
+  }
+  main .jumbotron h1 {
+    font-size: 50px;
+  }
+  main .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+  }
+  main .galeria .imagen1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  main .galeria .imagen2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  main .galeria .imagen3 {
+    grid-column: 3/4;
+    grid-row: 1/4;
+  }
+  main .galeria .imagen4 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+}/*# sourceMappingURL=estilos.css.map */
