@@ -1,0 +1,11 @@
+Aplicaciones SEO:
+
+Compresión de la carpeta "img" a través de la extensión TinyPNG. 
+
+Modificación de encabezados (h), respetando la presencia de todos los valores intermedios. 
+
+Designación de distintos títulos para cada una de las páginas.
+
+Inclusión de etiquetas <meta name="description"> y <meta name="keywords">  
+
+Uso de la etiqueta <strong> en encabezados. 
